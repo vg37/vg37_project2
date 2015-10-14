@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF042F401BCEEE1A001F26A2 /* DataList1.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF042F3F1BCEEE1A001F26A2 /* DataList1.plist */; settings = {ASSET_TAGS = (); }; };
 		AF18C2851BC9792B00DD4A38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF18C2841BC9792B00DD4A38 /* AppDelegate.swift */; };
 		AF18C2871BC9792B00DD4A38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF18C2861BC9792B00DD4A38 /* ViewController.swift */; };
 		AF18C28A1BC9792B00DD4A38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF18C2881BC9792B00DD4A38 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF042F3F1BCEEE1A001F26A2 /* DataList1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DataList1.plist; sourceTree = "<group>"; };
 		AF18C2811BC9792B00DD4A38 /* AutoInsurance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoInsurance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF18C2841BC9792B00DD4A38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF18C2861BC9792B00DD4A38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				AF18C2841BC9792B00DD4A38 /* AppDelegate.swift */,
 				AF18C2861BC9792B00DD4A38 /* ViewController.swift */,
 				AF18C2881BC9792B00DD4A38 /* Main.storyboard */,
+				AF042F3F1BCEEE1A001F26A2 /* DataList1.plist */,
 				AF18C28B1BC9792B00DD4A38 /* Assets.xcassets */,
 				AF18C28D1BC9792B00DD4A38 /* LaunchScreen.storyboard */,
 				AF18C2901BC9792B00DD4A38 /* Info.plist */,
@@ -176,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF042F401BCEEE1A001F26A2 /* DataList1.plist in Resources */,
 				AF18C28F1BC9792B00DD4A38 /* LaunchScreen.storyboard in Resources */,
 				AF18C28C1BC9792B00DD4A38 /* Assets.xcassets in Resources */,
 				AF18C28A1BC9792B00DD4A38 /* Main.storyboard in Resources */,
@@ -387,6 +391,7 @@
 				AF18C2A01BC9792B00DD4A38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF18C2A11BC9792B00DD4A38 /* Build configuration list for PBXNativeTarget "AutoInsuranceTests" */ = {
 			isa = XCConfigurationList;
@@ -395,6 +400,7 @@
 				AF18C2A31BC9792B00DD4A38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
