@@ -17,22 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="maB-8W-lQT">
-                                <rect key="frame" x="188" y="28" width="115" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="25" id="wc9-zg-YNn"/>
-                                </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Auto Insurance">
-                                        <attributes>
-                                            <color key="NSColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="25" name="TimesNewRomanPS-BoldMT"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <color key="highlightedColor" red="0.40000000596046448" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ag2-o4-Wk0">
                                 <rect key="frame" x="20" y="94" width="167" height="21"/>
                                 <attributedString key="attributedText">
@@ -141,6 +125,22 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="maB-8W-lQT">
+                                <rect key="frame" x="188" y="28" width="115" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="wc9-zg-YNn"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Auto Insurance">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="25" name="TimesNewRomanPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" red="0.40000000596046448" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
@@ -154,7 +154,7 @@
                             <constraint firstItem="yzH-le-QAz" firstAttribute="top" secondItem="OoR-pi-wVK" secondAttribute="bottom" constant="10" id="DRk-oV-rNg"/>
                             <constraint firstItem="Vh5-nX-wy5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="DUd-fU-e5O"/>
                             <constraint firstItem="kdu-wg-hni" firstAttribute="top" secondItem="ag2-o4-Wk0" secondAttribute="bottom" constant="15" id="DXh-Km-dnp"/>
-                            <constraint firstItem="ag2-o4-Wk0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="J53-KU-5NH"/>
+                            <constraint firstItem="ag2-o4-Wk0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="J53-KU-5NH"/>
                             <constraint firstItem="hT5-tz-duO" firstAttribute="top" secondItem="4fh-3J-I39" secondAttribute="bottom" constant="15" id="NUh-9Y-KWa"/>
                             <constraint firstItem="hQl-zI-17A" firstAttribute="top" secondItem="beA-kD-aJT" secondAttribute="bottom" constant="10" id="O20-6c-blV"/>
                             <constraint firstItem="beA-kD-aJT" firstAttribute="top" secondItem="kdu-wg-hni" secondAttribute="bottom" constant="10" id="RZr-5u-BIw"/>
